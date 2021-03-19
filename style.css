@@ -35,9 +35,15 @@ main{
 main .description{
     font-size: 180px;
 }
+main .caption{
+    font-size: 30px;
+}
 
 @media screen and (max-width: 600px) {
     main .description{
         font-size: 90px;
+    }
+    main .caption{
+        font-size: 20px;
     }
   }
