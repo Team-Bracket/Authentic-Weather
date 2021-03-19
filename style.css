@@ -27,6 +27,9 @@ header .fa{
     font-size: 50px;
     color: rgb(36, 35, 35);
 }
+header .temperature{
+    font-size: 50px;
+}
 main{
     display: flex;
     flex-direction: column;
