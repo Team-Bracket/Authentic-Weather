@@ -27,8 +27,15 @@
         </caption> -->
     </main>
     <footer>
-        Authentic Weather © 2021, Bracket team.
+        Authentic Weather ©
+        <span id="authentic">
+            ,
+        </span>
+        Bracket team.
     </footer>
+    <script>
+        document.querySelector('#authentic').innerText = new Date().getFullYear();
+    </script>
     <script src="./skycons.js"></script>
     <script src="./jquery-3.2.1.min.js"></script>
     <script src="./app.js"></script>
