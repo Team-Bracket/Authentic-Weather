@@ -16,6 +16,8 @@ $(document).ready(function () {
             let dingin = ['Fucking Freezing.', 'It\'s Fucking Freezing.', 'Use Your Fucking jacket.'];
             let hujan = ['It\'s Fucking Raining.', 'Raining Now.', 'It\'s Fucking Raining Now.'];
             let hangat = ['Fucking love is in the air.', 'Just Fucking Grey.', 'Fucking Warm.'];
+            let winds = ['It\'s Fucking Raining.', 'Raining Now.', 'It\'s Fucking Raining Now.'];
+            let snows = ['Fucking love is in the air.', 'Just Fucking Grey.', 'Fucking Warm.'];
 
             lat = position.coords.latitude;
             long = position.coords.longitude;
